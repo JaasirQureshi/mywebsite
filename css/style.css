@@ -1,0 +1,147 @@
+
+
+body{
+
+    background-color: #000000;
+    color:rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px; 
+    line-height: 1.6em;
+    margin:0px; 
+
+}
+
+.container{
+        width: 80%;
+        margin:auto;
+        overflow:hidden;
+        color:forestgreen;
+
+}
+
+#main-header{
+    padding: 3%;
+    background-color: greenyellow;
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+    border-style: solid;
+    margin: 1px;
+
+}
+
+
+
+
+a{
+
+    display:inline;
+    color:green;    
+
+
+}
+a :hover{color:green;}
+
+
+.navbar{
+
+  background-color: rgb(37, 37, 37);
+  color: #fff;
+
+}
+
+.navbar ul{
+
+
+    padding:0;
+    list-style: none;
+    
+}
+
+.navbar li{
+
+    display:inline;
+
+
+
+}
+
+
+.navbar a{
+
+    color:white;
+    text-decoration:underline green;
+    font-size: 18px;
+    padding-right: 15px;
+    
+
+}
+
+.navbar a:hover{color:green;}
+
+.navbar a:active{color:yellow;}
+
+.cool-link a::after{
+        content:'';
+        display: inline-block;
+        width:0;
+        height: 2px;
+        background: #fff;
+        transition: width .3s;
+}
+
+.cool-link a::before{
+
+    width: 100% ;
+    transition: width .3s;
+
+}
+/* 
+#navbar a:visited{color:red} 
+*/
+
+#showcase{
+
+    background-image: url('../images/showcase.jpg ');
+    background-position:center;
+    min-height: 900px;
+    margin-bottom: 50px;
+    text-align: center;
+    border-image-repeat: none  ;
+    
+   
+
+    /* padding:2%; */
+
+}
+/* #main{
+    float: left;
+    background: #333;
+    color: #fff;
+    
+    width: 70%;
+    padding: 0 30px;
+    box-sizing: border-box;
+
+} */
+#main-footer{
+    background-image: url('../images/insta.jpg');
+     
+       background:  #333;
+   color:#fff;
+   text-align: center;
+   padding:15px;
+   margin-top: 40px;
+   position:relative;
+
+
+}
+
+#social{
+     z-index: -1;
+   position:relative;
+   
+
+} 
+
+
+/*transition:width*/ 
